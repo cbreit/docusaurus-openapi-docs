@@ -197,7 +197,7 @@ paths:
         - pet
       summary: Find pet by ID
       description: Returns a single pet
-      operationId: getPetById
+      operationId: getById
       parameters:
         - name: petId
           in: path
@@ -478,7 +478,7 @@ paths:
       description: >-
         For valid response try integer IDs with value <= 5 or > 10. Other values
         will generated exceptions
-      operationId: getOrderById
+      operationId: getById
       parameters:
         - name: orderId
           in: path
